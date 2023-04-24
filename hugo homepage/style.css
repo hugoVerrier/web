@@ -1,0 +1,32 @@
+.nuit{
+    background-image: url(image/degrade_nuit.jpg);
+    background-size : cover;
+    background-repeat: no-repeat;
+}
+
+.nuit2{
+    background-image: url(image/degrade_nuit2.jpg);
+    background-size : cover;
+    background-repeat: no-repeat;
+}
+
+.nuage{
+    background-image: url(image/nuage-removebg-preview-removebg-preview.png);
+    background-size : contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.ecriture{
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.ecriture2{
+    text-shadow: 2px 2px 2px #4e4e4e;
+} 
+
+body{
+    font-family: 'Acme', sans-serif;
+  font-family: 'Shantell Sans', cursive;
+}
