@@ -48,7 +48,7 @@ burgerList.forEach((burger,index) =>{
                 <h2 class="p-4 text-3xl underline py-8"> ${burger.nom} </h2>
 
                  <p class=" text-2xl text-justify py-8" >${burger.description} </p>
-                 <p class=" text-lg py-4"> ${burger.ingredients}</p>
+                 <p class=" text-lg py-4 text-justify"> ${burger.ingredients}</p>
                  <p class=" text-2xl flex float-right justify-end border-2 border-black bg-[#F3E99F] rounded-full p-2" > ${burger.prix} € </p>
 
             </div>

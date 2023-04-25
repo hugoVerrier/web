@@ -28,6 +28,22 @@ const burgerList = [{
         "prix": 10.99,
         "img": "https://www.kokko.net/modules/ybc_blog/views/img/post/7.jpg",
         "ingredients": ["galette","salade","tomate","avocats","sauce BBQ"]
+    },
+
+    {
+        "nom": "Burger Spicy",
+        "description": "Un burger epicée ne serait rien sans un magnifique piments pour l'accompagner, dans ce burger a base de piment, sauce pimenté, nous lui avons ajouter des épices oritnales qui sauront vous faire plaisir",
+        "prix": 12.99,
+        "img": "https://wickedkitchen.com/wp-content/uploads/2022/05/Wicked-jalapeno-burger.jpeg",
+        "ingredients": ["pain brioché","salade","tomate","avocats","sauce Piquant","Piment"], 
+    },
+
+    {
+        "nom": "Burger Mystere",
+        "description": "Pour changer des burgers nous avons mis un magnifiques burger mistere",
+        "prix": 9.00,
+        "img": "https://onatesté.com/images/restaurants/burger-king/burger-mystere-burger-king.jpg",
+        "ingredients": ["Mystere"]
     }
 
 ]
