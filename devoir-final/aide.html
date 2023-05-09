@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collab'Service</title>
-    <script src="./script.js" defer="true" type="module"></script>
+    <script src="./data.js" defer="true" type="module"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,9 +25,9 @@
 <body id="test" class=" ">
     <div id="titre" class=" bg-[#82CD47] h-48 flex items-start p-8">
         <div  class=" flex">
-            <p class="text-2xl mx-4 hover:scale-125  "><a href="./index.html">Les Demandes</a></p>
+            <p class="text-2xl mx-4 hover:scale-125  "><a href="./index.html">Les Demandes</a></p>  <!--permet d'allez que les demandes-->
             <p class="text-2xl mx-4"> |</p>
-            <p class="text-2xl mx-4 hover:scale-125 ">    <a href="./aide.html">Besoin D'aide</a> </p>
+            <p class="text-2xl mx-4 hover:scale-125 ">    <a href="./aide.html">Besoin D'aide</a> </p> <!--permet d'allez que le formulaire-->
         </div>
         
         <h1  class="text-5xl self-end mx-auto hover:scale-150 ">Collab'Service</h1>
@@ -38,12 +38,33 @@
             <p class="text-2xl mx-4 hover:scale-125 ">    <a href="">S' inscrire</a> </p>
         </div>
     </div>
+ 
 
     <div>
-        <div id="container">
+        <div id="aide" class="p-2  m-24 grid grid-cols-2 item-center">
+            <h2 class="my-8">Saisissez votre nom</h2>
+            <textarea id="nom" rows="3" cols="40" class="border-black border-2 m-2 rounded rounded-xl">
+            </textarea>
+            <h2 class="my-8">Saisissez le lien de l'image associer</h2>
+            <textarea id="image" rows="3" cols="40" class="border-black border-2 m-2 rounded rounded-xl">
+            </textarea>
+            <h2 class="my-8">Saisissez la duree estimée</h2>
+            <textarea id="duree" rows="3" cols="40" class="border-black border-2 m-2 rounded rounded-xl">
+            </textarea>
+            <h2 class="my-8">Saisissez votre numero de téléphone</h2>
+            <textarea id="numero" rows="3" cols="40" class="border-black border-2 m-2 rounded rounded-xl">
+            </textarea>
+            <h2 class="my-8">Saisissez le lieux</h2>
+            <textarea id="lieux" rows="3" cols="40" class="border-black border-2 m-2 rounded rounded-xl">
+            </textarea>
+            <h2 class="my-8">Saisissez la description</h2>
+            <textarea id="description" rows="8" cols="40" class="border-black border-2 m-2 rounded rounded-xl">
+            </textarea>
+        </div>
+        <div class="inline-block flex justify-end">
+            <h3 id="bouton" class="p-3 m-12 border-2 border-black rounded">Ajouter</h3>
 
         </div>
-
     </div>
 
 
